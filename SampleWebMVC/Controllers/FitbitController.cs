@@ -149,6 +149,23 @@ namespace SampleWebMVC.Controllers
 
         }
 
+        //example using the time series, one per day
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+ //       public ActionResult LastYearBMIFat(string id)
+ //       {
+ //           FitbitClient client = GetFitbitClient();
+
+ //           TimeSeriesDataList weightSeries = client.GetTimeSeries(TimeSeriesResourceType.Weight, DateTime.UtcNow, DateRangePeriod.OneYear);
+
+   //         return View(weightSeries);
+
+
+   //     }
+
         //example using the direct API call getting all the individual logs
         public ActionResult MonthWeight(string id)
         {

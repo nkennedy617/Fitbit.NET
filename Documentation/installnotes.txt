@@ -1,0 +1,29 @@
+09/16/15
+
+This document is intended to help with the initial build of the Fitbit.Net Visual Studio project.
+
+Prerequisites:
+(Obvious development tools)
+Visual Studio (different versions work)
+SQL Server Express / SQL Server
+IIS server installation
+
+
+(Package manager)
+Nuget (a package manager for Visual Studio)
+see https://www.nuget.org/
+--This will need to be installed and Visual Studio restarted, prior to starting work with Fitbit
+code.
+--Nuget may also require a specific version of the .Net Framework.
+
+
+
+(Fitbit dev)
+The Fitbit developer accounts requires a few changes.
+--The sample mvc project needs the url / port
+	ex: localhost:61403
+--Copy the key/secret key as appropriate
+
+
+
+***BUILD THE ENTIRE SOLUTION (Fitbit) then run the Sample project as desired.
